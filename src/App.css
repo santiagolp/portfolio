@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
+.is-dark{
+  background-color: hsl(0, 0%, 21%);
+  color:hsl(0, 0%, 96%);
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
