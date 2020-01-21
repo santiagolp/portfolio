@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Hero, Container, Content, Footer, Columns } from 'react-bulma-components';
+import {  Footer } from 'react-bulma-components';
 
 class MainFooter extends Component {
     render() {

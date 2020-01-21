@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import { Hero, Container, Content, Footer, Columns } from 'react-bulma-components';
+import { Hero, Container,  Section } from 'react-bulma-components';
 
 class About extends Component {
     render() {
         return (
-            <Hero color="primary" size="fullheight" >
+            <Section id="about" className="hero is-fullheight">
                 <Hero.Body>
-                    <h1 className="title is-1"> Hello friend.</h1>
+                    <Container>
+                        <h2 className="subtitle is-2 "> Full stack developer. <span role="img" aria-label="dev">👨‍💻</span> </h2> 
+                        <h1 className="title is-1"> Santiago Dellepiane.</h1>
+                    </Container>
                 </Hero.Body>
-            </Hero>
+            </Section>
         );
     }
 }

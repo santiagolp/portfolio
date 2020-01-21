@@ -1,19 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar } from 'react-bulma-components';
 
-const colors = {
-    Default: '',
-    primary: 'primary',
-    info: 'info',
-    danger: 'danger',
-    warning: 'warning',
-    success: 'success',
-    white: 'white',
-    black: 'black',
-    light: 'light',
-    dark: 'dark',
-    link: 'link',
-};
+
 
 class MainHeader extends Component {
     render() {
@@ -27,16 +15,13 @@ class MainHeader extends Component {
                 </Navbar.Brand>
                 <Navbar.Menu >
                     <Navbar.Container position="end">
-                        <Navbar.Item href="#">
+                        <Navbar.Item href="#about">
                             <h3 className='title is-3'>Home</h3>
                         </Navbar.Item>
-                        <Navbar.Item href="#">
-                            <h3 className='title is-3'>About</h3>
+                        <Navbar.Item href="#works">
+                            <h3 className='title is-3'>Work</h3>
                         </Navbar.Item>
-                        <Navbar.Item href="#">
-                            <h3 className='title is-3'>Works</h3>
-                        </Navbar.Item>
-                        <Navbar.Item href="#">
+                        <Navbar.Item href="#contact">
                             <h3 className='title is-3'>Contact</h3>
                         </Navbar.Item>
                     </Navbar.Container>
