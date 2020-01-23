@@ -7,11 +7,11 @@ class Work extends Component {
 
     render() {
         console.log(this.props);
-        const { title, description, technologies, date, company, imagen, thumb } = this.props;
+        const { title, description, technologies, date, company, image, thumb } = this.props;
         return (
             <Columns.Column size={4}>
                 <Card>
-                    <Card.Image size="4by3" src={imagen} />
+                    <Card.Image size="4by3" src={image} />
                     <Card.Content>
                         <Media>
                             <Media.Item renderAs="figure" position="left">
