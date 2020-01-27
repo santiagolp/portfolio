@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f314a3feacf540f48b5f8cbfd12a962",
+    "revision": "1575fa68108840db45d61b04a3e88d55",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7a9d27eba7c2fdb74acd",
+    "revision": "ec6612a811d3aedc9dee",
     "url": "/portfolio/static/css/2.79966c17.chunk.css"
   },
   {
-    "revision": "612d17dcb965a8f1c9ed",
-    "url": "/portfolio/static/css/main.41822509.chunk.css"
+    "revision": "3b8df81221ad37e196be",
+    "url": "/portfolio/static/css/main.6244de9e.chunk.css"
   },
   {
-    "revision": "7a9d27eba7c2fdb74acd",
-    "url": "/portfolio/static/js/2.5c740a82.chunk.js"
+    "revision": "ec6612a811d3aedc9dee",
+    "url": "/portfolio/static/js/2.c3640f38.chunk.js"
   },
   {
     "revision": "3d840df91d7f30afc8b79dd1e29603a1",
-    "url": "/portfolio/static/js/2.5c740a82.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.c3640f38.chunk.js.LICENSE"
   },
   {
-    "revision": "612d17dcb965a8f1c9ed",
-    "url": "/portfolio/static/js/main.a8a737e6.chunk.js"
+    "revision": "3b8df81221ad37e196be",
+    "url": "/portfolio/static/js/main.e126fb2b.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -36,12 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/3305327.964eadee.jpg"
   },
   {
+    "revision": "b244f0a55471c20f41c11287a6c4c2b4",
+    "url": "/portfolio/static/media/electron.b244f0a5.svg"
+  },
+  {
     "revision": "64ce965097cab73fcfd48a5f309d0cdd",
     "url": "/portfolio/static/media/fulisoft.64ce9650.jpg"
   },
   {
     "revision": "074a530df92bcf31cd3f9be8286098ee",
     "url": "/portfolio/static/media/hc.074a530d.jpg"
+  },
+  {
+    "revision": "1ce6577c52f95fa2f895ca03b156c4e6",
+    "url": "/portfolio/static/media/pont.1ce6577c.jpg"
+  },
+  {
+    "revision": "221268e08ef638ecd4b98adcf0fa2f5c",
+    "url": "/portfolio/static/media/pos.221268e0.jpg"
   },
   {
     "revision": "25961a11e84dcab2332b7f70c8c7898a",
