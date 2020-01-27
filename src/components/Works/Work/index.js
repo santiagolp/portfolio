@@ -6,13 +6,12 @@ class Work extends Component {
 
 
     render() {
-        console.log(this.props);
         const { title, description, technologies, date, company, image, thumb } = this.props;
         return (
             <Columns.Column size={4}>
                 <Card>
                     <Card.Header>
-                        <p class="card-header-title">
+                        <p className="card-header-title">
                             <span>{title}</span>
                             <span className="is-pulled-right">
                             </span>
