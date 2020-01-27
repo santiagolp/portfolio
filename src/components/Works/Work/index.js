@@ -11,6 +11,13 @@ class Work extends Component {
         return (
             <Columns.Column size={4}>
                 <Card>
+                    <Card.Header>
+                        <p class="card-header-title">
+                            <span>{title}</span>
+                            <span className="is-pulled-right">
+                            </span>
+                        </p>
+                    </Card.Header>
                     <Card.Image size="4by3" src={image} />
                     <Card.Content>
                         <Media>

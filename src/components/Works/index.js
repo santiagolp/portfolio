@@ -13,10 +13,10 @@ class Works extends Component {
         return (
             <div id="works">
                 <Section  className="hero" >
-                    <Container className="is-fluid">
+                    <Container >
                         <Columns>
                             <Columns.Column className="has-text-centered"  >
-                               <h1 className="title is-1 mb-5"> Latest Work</h1>
+                               <h1 className="title is-1 mb-5"> Latest Work <span role="img" aria-label="portfolio">💼</span></h1>
                             </Columns.Column>
                         </Columns>
                         {/* #007bfd; */}

@@ -8,7 +8,7 @@ class MainFooter extends Component {
                 <div className="container">
                     <div className="content has-text-centered">
                         <p>
-                            <strong>Santiago Dellepiane</strong> Powered by React.
+                            <strong>Santiago Dellepiane portfolio <span role="img" aria-label="rocket">🚀</span></strong> Powered by React .
                         </p>
                     </div>
                 </div>

@@ -41,12 +41,12 @@ class Contact extends Component {
 
     render() {
         return (
-            <div id="contact">
+            <div id="contact" className="background">
                 <Section className="hero">
                     <Container >
                         <Columns >
                             <Columns.Column size={8} offset={2} className="is-vcentered">
-                                <h1 className=" has-text-centered title is-1">Contact</h1>
+                                <h1 className=" has-text-centered title is-1">Contact me <span role="img" aria-label="contactme">🤙</span></h1>
 
                             </Columns.Column>
 
