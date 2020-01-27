@@ -1,15 +1,35 @@
 import React, { Component } from 'react';
-import { Columns, Card, Content, Media, Heading, Image } from 'react-bulma-components';
+import { Columns, Card, Content, Media, Heading, Image, Modal, Button } from 'react-bulma-components';
 
 
 class Work extends Component {
+    state = {
+        show: false,
+    }
+
+    open = () => this.setState({ show: true });
+    close = () => this.setState({ show: false });
+
+    handleClick(link) {
+
+        return event => {
+
+            window.open(
+                link,
+                '_blank' // <- This is what makes it open in a new window.
+            );
+
+            event.preventDefault()
+
+        }
+    }
 
 
     render() {
-        const { title, description, technologies, date, company, image, thumb } = this.props;
+        const { title, description, technologies, date, company, image, thumb, link } = this.props;
         return (
-            <Columns.Column size={4}>
-                <Card>
+            <Columns.Column  >
+                <Card onClick={this.open}>
                     <Card.Header>
                         <p className="card-header-title">
                             <span>{title}</span>
@@ -28,13 +48,35 @@ class Work extends Component {
                                 <Heading subtitle size={6}>@{company}</Heading>
                             </Media.Item>
                         </Media>
-                        <Content>
-                            {description}<br /> <a href="#1">{technologies}</a>
-                            <br />
-                            <time > {date}</time>
-                        </Content>
                     </Card.Content>
                 </Card>
+
+                <Modal show={this.state.show} onClose={this.close} closeOnBlur={true} showClose={true}>
+                    <Modal.Card>
+                        <Modal.Card.Head showClose={true} onClose={this.close}>
+                            <Modal.Card.Title>
+                                {title}
+                            </Modal.Card.Title>
+                        </Modal.Card.Head>
+                        <Modal.Card.Body>
+                            <Columns>
+                                <Columns.Column>
+                                    <Image rounded={false} src={image} size="4by3" />
+                                </Columns.Column>
+                            </Columns>
+                            <Content>
+                                <p>{description}</p><br /> <a href="#1">{technologies}</a>
+                                <br />
+                                <time > {date}</time>
+                            </Content>
+
+                        </Modal.Card.Body>
+                        <Modal.Card.Foot>
+                            <Button color="info" onClick={this.handleClick(link)}>More info</Button>
+                        </Modal.Card.Foot>
+                    </Modal.Card>
+                </Modal>
+
             </Columns.Column>
         );
     }
