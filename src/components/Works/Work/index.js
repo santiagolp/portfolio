@@ -28,7 +28,7 @@ class Work extends Component {
     render() {
         const { title, description, technologies, date, company, image, thumb, link } = this.props;
         return (
-            <Columns.Column  >
+            <Columns.Column size={4} >
                 <Card onClick={this.open}>
                     <Card.Header>
                         <p className="card-header-title">
