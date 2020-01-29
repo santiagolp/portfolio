@@ -14,9 +14,6 @@ class Contact extends Component {
         return event => {
             let link;
             switch (text) {
-                case "whatsapp":
-                    link = `https://api.whatsapp.com/send?phone=542215948626&text=Hello`;
-                    break;
                 case "facebook":
                     link = `http://m.me/sanlp`;
                     break;
@@ -54,13 +51,11 @@ class Contact extends Component {
                                 <Form.Field>
                                     <Form.Control>
                                         <Columns className="has-text-centered">
-                                            <Columns.Column size={4}>
-                                                <Button type="primary" onClick={this.handleSubmit('whatsapp')} color="link" ><FontAwesomeIcon icon={faWhatsapp} />&nbsp;Whatsapp</Button>
-                                            </Columns.Column>
-                                            <Columns.Column size={4}>
+                                            
+                                            <Columns.Column size={6}>
                                                 <Button type="primary" onClick={this.handleSubmit('facebook')} color="link" ><FontAwesomeIcon icon={faFacebookMessenger} />&nbsp;Facebook</Button>
                                             </Columns.Column>
-                                            <Columns.Column size={4}>
+                                            <Columns.Column size={6}>
                                                 <Button type="primary" onClick={this.handleSubmit('linkedin')} color="link" ><FontAwesomeIcon icon={faLinkedin} />&nbsp;LinkedIn</Button>
                                             </Columns.Column>
                                         </Columns>
