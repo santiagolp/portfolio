@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Section, Form, Columns, Button, Container } from 'react-bulma-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookMessenger, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookMessenger, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 class Contact extends Component {
 
@@ -38,7 +38,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div id="contact" className="background">
+            <div id="contact" className="background2">
                 <Section className="hero">
                     <Container >
                         <Columns >
