@@ -1,32 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6244de9e.chunk.css",
-    "main.js": "/portfolio/static/js/main.b8d905b1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b8d905b1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.41822509.chunk.css",
+    "main.js": "/portfolio/static/js/main.edd257f8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.edd257f8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/css/2.79966c17.chunk.css": "/portfolio/static/css/2.79966c17.chunk.css",
-    "static/js/2.ab1f9166.chunk.js": "/portfolio/static/js/2.ab1f9166.chunk.js",
-    "static/js/2.ab1f9166.chunk.js.map": "/portfolio/static/js/2.ab1f9166.chunk.js.map",
+    "static/js/2.66fbcebd.chunk.js": "/portfolio/static/js/2.66fbcebd.chunk.js",
+    "static/js/2.66fbcebd.chunk.js.map": "/portfolio/static/js/2.66fbcebd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.505a6226b17105f61201fab22275c12d.js": "/portfolio/precache-manifest.505a6226b17105f61201fab22275c12d.js",
+    "precache-manifest.d00b03f321165d44b0bcbd85066fa701.js": "/portfolio/precache-manifest.d00b03f321165d44b0bcbd85066fa701.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.79966c17.chunk.css.map": "/portfolio/static/css/2.79966c17.chunk.css.map",
-    "static/css/main.6244de9e.chunk.css.map": "/portfolio/static/css/main.6244de9e.chunk.css.map",
-    "static/js/2.ab1f9166.chunk.js.LICENSE": "/portfolio/static/js/2.ab1f9166.chunk.js.LICENSE",
+    "static/css/main.41822509.chunk.css.map": "/portfolio/static/css/main.41822509.chunk.css.map",
+    "static/js/2.66fbcebd.chunk.js.LICENSE": "/portfolio/static/js/2.66fbcebd.chunk.js.LICENSE",
     "static/media/App.css": "/portfolio/static/media/3305327.964eadee.jpg",
     "static/media/electron.svg": "/portfolio/static/media/electron.b244f0a5.svg",
     "static/media/fulisoft.jpg": "/portfolio/static/media/fulisoft.64ce9650.jpg",
     "static/media/hc.jpg": "/portfolio/static/media/hc.074a530d.jpg",
     "static/media/pont.jpg": "/portfolio/static/media/pont.1ce6577c.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.af475ffc.jpg",
     "static/media/pos.jpg": "/portfolio/static/media/pos.221268e0.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.34b91145.png",
     "static/media/seguridad.jpg": "/portfolio/static/media/seguridad.25961a11.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/css/2.79966c17.chunk.css",
-    "static/js/2.ab1f9166.chunk.js",
-    "static/css/main.6244de9e.chunk.css",
-    "static/js/main.b8d905b1.chunk.js"
+    "static/js/2.66fbcebd.chunk.js",
+    "static/css/main.41822509.chunk.css",
+    "static/js/main.edd257f8.chunk.js"
   ]
 }
