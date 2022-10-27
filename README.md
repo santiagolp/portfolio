@@ -17,4 +17,4 @@ You will also see any lint errors in the console.
 This portfolio was built with react and bulma css.
 
 Preview:
-[https://santiagolp.github.io/portfolio/](preview) 
+[https://santiagolp.github.io/portfolio](preview) 
